@@ -1,13 +1,31 @@
 
 function getFormValues() {
 
-    let email = null;
+    // TODO
+    let email = document.querySelector('#email-address').value;
 
+    // TODO
     let model = null;
+    let radioBtns = document.querySelectorAll('.phone-type');
+    for (let radioBtn of radioBtns) {
+        if (radioBtn.checked) {
+            model = radioBtn.value;
+            break;
+        }
+    }
+    
+    // TODO
+    let services = [];
+    let checkboxes = document.querySelectorAll('.services');
+    for (let checkbox of checkboxes) {
+        if (checkbox.checked) {
+            services.push(checkbox.value);
+        }
+    }
 
-    let services = null;
-
-    let pickup = null;
+    
+    // TODO
+    let pickup = document.querySelector('#pick-up').value;
 
     // leave this line alone!
     return [email, model, services, pickup];
