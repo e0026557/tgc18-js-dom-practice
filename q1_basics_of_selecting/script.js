@@ -1,6 +1,7 @@
 // PLACE YOUR CODE HERE
-
-
+let header = document.querySelector('h1');
+let important = document.querySelector('#important');
+let todo = document.querySelectorAll('li.todo')[0];
 
 // LEAVE THE BELOW ALONE! DON'T TOUCH
 try {
