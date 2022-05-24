@@ -1,7 +1,7 @@
 // PLACE YOUR CODE HERE
 
 // Q1 & Q2
-let criminals = document.querySelectorAll('.a:not(.undercover)');
+let criminals = document.querySelectorAll('.a');
 for (let criminal of criminals) {
     criminal.style.backgroundColor = 'red';
     criminal.innerText += '(jailed)';
