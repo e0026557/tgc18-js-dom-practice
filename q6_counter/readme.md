@@ -19,11 +19,8 @@ reset the number in the box to 0. **Make sure you place this as the last button*
 5. Challenge: Make it such that when the number in the box is even, the background color of the
 numbr is green, and when the number is odd, the background color is red. Note: 0 is considered as even.
 
-<<<<<<< HEAD
-=======
 ## Testing
 
->>>>>>> solutions
 To test, type the following in the terminal:
 ```
 npm test q6
