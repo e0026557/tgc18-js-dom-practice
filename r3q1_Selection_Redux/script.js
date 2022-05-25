@@ -11,3 +11,7 @@ wolfImg.style.padding = '32px 0 15px 0';
 
 // Q3
 let firstFact = document.querySelector('#randomFactList li:first-child');
+let lastFact = document.querySelector('#randomFactList li:last-child');
+
+firstFact.style.backgroundColor = 'yellow';
+lastFact.style.backgroundColor = 'yellow';
