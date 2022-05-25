@@ -1,0 +1,4 @@
+/* Set for-tourists to be display none by default */
+#for-tourists {
+    display: none;
+}
