@@ -15,3 +15,13 @@ let lastFact = document.querySelector('#randomFactList li:last-child');
 
 firstFact.style.backgroundColor = 'yellow';
 lastFact.style.backgroundColor = 'yellow';
+
+// Q4
+let titleRecipe = document.querySelector('#titleRecipe');
+titleRecipe.innerHTML = 'Pancake Recipe';
+
+// Q5
+let orderLiElements = document.querySelectorAll('ol li');
+for (let orderLiElement of orderLiElements) {
+    orderLiElement.style.color = 'orange';
+}
